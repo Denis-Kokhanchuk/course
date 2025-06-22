@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Коханчук Денис - Ваш Front-End Розробник</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <nav class="container">
+            <div class="logo">Коханчук Денис</div>
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="primary-navigation">
+                <li><a href="#about">Про мене</a></li>
+                <li><a href="#projects">Проекти</a></li>
+                <li><a href="#skills">Навички</a></li>
+                <li><a href="#pricing">Ціни</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="hero">
+        <div class="hero-content container">
+            <div class="hero-text animate-slide-right">
+                <h1>Привіт! Я <span class="highlight">Коханчук Денис</span></h1>
+                <p>Ваш Front-End розробник з 2020 року, створюю інноваційні та зручні веб-інтерфейси.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">Переглянути мої роботи</a>
+                    <a href="#skills" class="btn primary-btn">Переглянути мої вміння</a>
+                </div>
+            </div>
+            <div class="hero-image animate-fade-in">
+                <img src="img/I.jpg" alt="Ваше фото">
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section id="about" class="about-me container section-padding">
+            <h2 class="animate-fade-in">Про мене</h2>
+            <div class="about-content">
+                <p class="animate-slide-up">Мене звати Денисі я Front-End розробник з досвідом роботи з 2020 року. Моя пристрасть — перетворювати складні ідеї на чисті, функціональні та естетично привабливі веб-інтерфейси. Я вірю, що якісний код та увага до деталей є ключовими для створення чудового користувацького досвіду.</p>
+                <p class="animate-slide-up">За ці роки я працював над різними проектами, від адаптивних лендінгів до складних односторінкових додатків (SPA). Постійно вивчаю нові технології та найкращі практики, щоб мої рішення були завжди на висоті.</p>
+                <h3 class="animate-slide-up">Моя філософія</h3>
+                <ul class="animate-slide-up">
+                    <li class="animate-fade-in">Чистий та підтримуваний код</li>
+                    <li class="animate-fade-in">Адаптивність та кросбраузерність</li>
+                    <li class="animate-fade-in">Орієнтація на користувацький досвід (UX)</li>
+                </ul>
+                <a href="#contact" class="btn primary-btn animate-fade-in">Замовити проект</a>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <h2 class="animate-fade-in">Мої Навички та Технології</h2>
+                <div class="skills-grid">
+                    <div class="skill-item animate-fade-in">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5 & CSS3</h3>
+                        <p>Семантична верстка, Flexbox, Grid, CSS, Bootstrap.</p>
+                    </div>
+                    <div class="skill-item animate-fade-in">
+                        <i class="fab fa-js-square"></i>
+                        <h3>JavaScript</h3>
+                        <p>Надійний, чистий та ефективний код, взаємодія з DOM, робота з API.</p>
+                    </div>
+                    <div class="skill-item animate-fade-in">
+                        <i class="fab fa-react"></i>
+                        <h3>React.js</h3>
+                        <p>Достатній рівень</p>
+                    </div>
+                    <div class="skill-item animate-fade-in">
+                        <i class="fab fa-vuejs"></i>
+                        <h3>Vue.js</h3>
+                        <p>Достатній рівень</p>
+                    </div>
+                    <div class="skill-item animate-fade-in">
+                        <i class="fas fa-code"></i>
+                        <h3>Інструменти розробки</h3>
+                        <p>Git,Figma (базовий рівень).</p>
+                    </div>
+                    <div class="skill-item animate-fade-in">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Сертифікати</h3>
+                        <p>Маю сертифікати від Coursera, Prometheus з Front-End розробки та суміжних технологій.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <h2 class="animate-fade-in">Мої Проекти</h2>
+                <div class="projects-grid">
+                    <div class="project-card animate-fade-in">
+                        <img src="img/site-design-photo-5.png" alt="Проект 1">
+                        <div class="project-card-content">
+                            <h3>Сайти для продажі їжі</h3>
+                            <p>Моя роль в проекті: Дизайн та верстка.</p>
+                        </div>
+                    </div>
+                    <div class="project-card animate-fade-in">
+                        <img src="img/zakaz-sajta-dlya-dostavki-edy.jpg" alt="Проект 2">
+                        <div class="project-card-content">
+                            <h3>Продажа піци</h3>
+                            <p>Моя роль в проекті: повністю створений Front-end і трішки Back-end.</p>
+                        </div>
+                    </div>
+                    <div class="project-card animate-fade-in">
+                        <img src="img/0357c0b25cf75893381699fd96570eee_700.png" alt="Проект 3">
+                        <div class="project-card-content">
+                            <h3>Власний магазин</h3>
+                            <p>На замовлення створений 8 сторінковий сайт.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing-section section-padding">
+            <div class="container">
+                <h2 class="animate-fade-in">Послуги та Розцінки</h2>
+                <div class="pricing-grid">
+                    <div class="pricing-card animate-fade-in">
+                        <h3>Малий</h3>
+                        <p class="price">Від <span>$30</span></p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Адаптивна верстка 1-8 сторінок</li>
+                            <li><i class="fas fa-check"></i> Базові анімації</li>
+                            <li><i class="fas fa-check"></i> Оптимізація для мобільних пристроїв</li>
+                            <li><i class="fas fa-check"></i> Термін: 1-4 днів</li>
+                        </ul>
+                        <a href="#contact" class="btn primary-btn">Замовити</a>
+                    </div>
+                    <div class="pricing-card featured animate-fade-in">
+                        <h3>Стандарт</h3>
+                        <p class="price">Від <span>$60</span></p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Адаптивна верстка 8-16 сторінок</li>
+                            <li><i class="fas fa-check"></i> Анімації</li>
+                            <li><i class="fas fa-check"></i> Оптимізація для мобільних пристроїв</li>
+                            <li><i class="fas fa-check"></i> Розширена функціональність</li>
+                            <li><i class="fas fa-check"></i> Термін: 4-7 днів</li>
+                        </ul>
+                        <a href="#contact" class="btn primary-btn">Замовити</a>
+                    </div>
+                    <div class="pricing-card animate-fade-in">
+                        <h3>Індивідуальний Проект</h3>
+                        <p class="price">Від <span>$100</span></p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Велика кількість сторінок</li>
+                            <li><i class="fas fa-check"></i> Інтеграція з бекендом</li>
+                            <li><i class="fas fa-check"></i> Консультації та підтримка</li>
+                            <li><i class="fas fa-check"></i>  Складна анімація, інтерактив, слайдери</li>
+                        </ul>
+                        <a href="#contact" class="btn primary-btn">Обговорити</a>
+                    </div>
+                </div>
+                <p class="note animate-fade-in">У кожен пакет можна додати або прибрати певні функції — усе обговорюється. Напиши в особисті повідомлення, щоб уточнити деталі, підібрати найкращий варіант саме під твій бюджет та завдання. <a href="#contact">зв'яжіться зі мною</a>.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <h2 class="animate-fade-in">Зв'язатися зі мною</h2>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Коханчук Денис. Усі права захищені.</p>
+            <div class="footer-social-links">
+                <a href="mailto:deniskokhanchuk@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://t.me/joorkool" target="_blank" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+</html>
